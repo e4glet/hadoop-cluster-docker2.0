@@ -2,15 +2,13 @@
 
 #### About this Images
 
-OS：Ubuntu14.04  
-JDK Version：8u191  
+OS：Ubuntu16.04  
+JDK Version：openjdk8  
 Hadoop Version：2.7.2  
-
-docker images form：https://github.com/kiwenlau/hadoop-cluster-docker  
 
 #### Overview
 
-本版本在修复原镜像Bug基础上，重新制作了镜像，安装最新的JDK版本（8u191），支持Eclipse JDK1.8版本的开发。
+本版本使用Ubuntu16.04为基础，安装最新的JDK版本（8u121），支持Eclipse JDK1.8版本的开发。
 
 
 #### N节点Hadoop集群搭建步骤（N>=3）
