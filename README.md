@@ -11,40 +11,40 @@ Hadoop Version：2.7.2
 本版本使用Ubuntu16.04为基础，安装最新的JDK版本（8u121），支持Eclipse JDK1.8版本的开发。
 
 
-#### N节点Hadoop集群搭建步骤（N>=3）
+#### Hadoop cluster construction steps for N node（N>=3）
 
-1. 下载Docker镜像
+1. pull docker image
 ```c
 docker pull e4glet/hadoop:2.0
 ```
-2. 下载GitHub仓库
+2. clone github repository
 ```c
 git clone https://github.com/e4glet/hadoop-cluster-docker2.0
 ```
 
-3. 创建Hadoop网络
+3. create hadoop network
 ```c
 docker network create --driver=bridge hadoop
 ```
-4. 进入配置目录
+4. Entry into the directory
 ```c
 cd hadoop-cluster-docker2.0
 ```
-5. 重新构建Docker镜像  
-以创建5个节点为例（1主4从）    
-注意：如果脚本文件没有执行权限  
+5. rebuild images for support more nodes  
+   
+Add execute permission to the script file  
+chmod 777 resize-cluster.sh  
 
-执行chmod 777 resize-cluster.sh  
-给脚本文件添加权限
+like this:
 
 ```c
 ./resize-cluster.sh 5
 ```
-6. 启动Docker容器
+6. create container and run it
 ```c
 ./start-container.sh 5
 ```
-运行结果：
+result：
 ```c
 start hadoop-master container...
 start hadoop-slave1 container...
@@ -54,16 +54,16 @@ start hadoop-slave4 container...
 root@hadoop-master:~# 
 ```   
 
-7. 启动Hadoop
+7. start hadoop
 ```c
 root@hadoop-master:~#./start-hadoop.sh
 ```
 
 
-8. 移除容器
+8. stop and remove container
 ```c
 ./remove-container.sh 5
 ```
 
 
-到此完成。  
+the end  
