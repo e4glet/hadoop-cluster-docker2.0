@@ -8,7 +8,7 @@ Hadoop Version：2.7.2
 
 #### Overview
 
-本版本使用Ubuntu16.04为基础，安装最新的JDK版本（8u121），支持Eclipse JDK1.8版本的开发。
+This image can be used for develop with Eclipse JDK 1.8.
 
 
 #### Hadoop cluster construction steps for N node（N>=3）
