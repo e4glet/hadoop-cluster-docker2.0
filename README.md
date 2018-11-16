@@ -80,7 +80,7 @@ Loot at your start-container.sh
 -v $PWD/hadoop:/root/hadoop
 ```
 
-If you have a more advanced configuration that requires hadoop-master to write to other locations, simply add more volume mounts to those locations.
+If you have a more advanced application that requires hadoop-master to write to other locations, simply add more volume mounts to those locations.
 
 like this:  
 ![alt tag](https://github.com/e4glet/hadoop-cluster-docker2.0/blob/master/20181116094759.png)  
