@@ -1,4 +1,4 @@
-# 使用docker创建Hadoop分布式集群2.0
+﻿# 使用docker创建Hadoop分布式集群2.0
 
 #### About this Images
 
@@ -67,5 +67,23 @@ root@hadoop-master:~#./start-hadoop.sh
 
 #### About development
 
-You can Define hadoop location like this:  
+1. How to set in Eclipse
+You can Define hadoop location like this on Eclipse 2018:  
 ![alt tag](https://github.com/e4glet/hadoop-cluster-docker2.0/blob/master/20181116092709.png)
+
+2. How to update the testapp in your container
+You will need to mount a Docker volume to every location where hadoop-master writes information.The default hadoop-master configuration requires write access to $PWD/hadoop and /root/hadoop.   
+
+Loot at your start-container.sh  
+```c
+-v $PWD/hadoop:/root/hadoop
+```
+
+If you have a more advanced configuration that requires hadoop-master to write to other locations, simply add more volume mounts to those locations.
+
+like this:
+![alt tag](https://github.com/e4glet/hadoop-cluster-docker2.0/blob/master/20181116094759.png)  
+
+![alt tag](https://github.com/e4glet/hadoop-cluster-docker2.0/blob/master/20181116094816.png)
+
+That's so cool.AlL right?
