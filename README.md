@@ -68,7 +68,7 @@ root@hadoop-master:~#./start-hadoop.sh
 
 #### About development
 
-1. How to set in Eclipse  
+1. How to config in Eclipse  
 You can Define hadoop location like this on Eclipse 2018:  
 ![alt tag](https://github.com/e4glet/hadoop-cluster-docker2.0/blob/master/20181116092709.png)
 
