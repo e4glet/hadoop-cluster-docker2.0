@@ -65,5 +65,8 @@ root@hadoop-master:~#./start-hadoop.sh
 ./remove-container.sh 5
 ```
 
+#### About development
 
-the end  
+You can Define hadoop location like this:
+
+
