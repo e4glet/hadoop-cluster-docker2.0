@@ -73,7 +73,7 @@ You can Define hadoop location like this on Eclipse 2018:
 ![alt tag](https://github.com/e4glet/hadoop-cluster-docker2.0/blob/master/20181116092709.png)
 
 2. How to upload the testapp in your container  
-You will need to mount a Docker volume to every location where hadoop-master writes information.The default hadoop-master configuration requires write access to $PWD/hadoop and /root/hadoop.   
+You will need to mount a Docker volume to every location where hadoop-master writes information.The default hadoop-master requires write access to $PWD/hadoop and /root/hadoop.   
 
 Loot at your start-container.sh  
 ```c
