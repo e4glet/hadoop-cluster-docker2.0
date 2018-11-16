@@ -1,4 +1,5 @@
 ﻿# 使用docker创建Hadoop分布式集群2.0
+ # Using docker create hadoop-cluster (Support JDK 8 for development)
 
 #### About this Images
 
