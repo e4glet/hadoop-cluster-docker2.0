@@ -67,5 +67,5 @@ root@hadoop-master:~#./start-hadoop.sh
 
 #### About development
 
-You can Define hadoop location like this:
+You can Define hadoop location like this:  
 ![alt tag](https://github.com/e4glet/hadoop-cluster-docker2.0/blob/master/20181116092709.png)
