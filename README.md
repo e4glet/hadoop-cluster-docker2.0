@@ -1,17 +1,17 @@
-# Ê¹ÓÃdocker´´½¨Hadoop·Ö²¼Ê½¼¯Èº2.0
+# ä½¿ç”¨dockeråˆ›å»ºHadoopåˆ†å¸ƒå¼é›†ç¾¤2.0
 
 #### About this Images
 
-OS£ºUbuntu16.04  
-JDK Version£ºopenjdk8  
-Hadoop Version£º2.7.2  
+OSï¼šUbuntu16.04  
+JDK Versionï¼šopenjdk8  
+Hadoop Versionï¼š2.7.2  
 
 #### Overview
 
 This image can be used for develop with Eclipse JDK 1.8.
 
 
-#### Hadoop cluster construction steps for N node£¨N>=3£©
+#### Hadoop cluster construction steps for N nodeï¼ˆN>=3ï¼‰
 
 1. pull docker image
 ```c
@@ -44,7 +44,7 @@ like this:
 ```c
 ./start-container.sh 5
 ```
-result£º
+resultï¼š
 ```c
 start hadoop-master container...
 start hadoop-slave1 container...
@@ -68,5 +68,4 @@ root@hadoop-master:~#./start-hadoop.sh
 #### About development
 
 You can Define hadoop location like this:
-
-
+![alt tag](https://github.com/e4glet/hadoop-cluster-docker2.0/blob/master/20181116092709.png)
