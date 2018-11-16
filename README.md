@@ -86,4 +86,4 @@ like this:
 
 ![alt tag](https://github.com/e4glet/hadoop-cluster-docker2.0/blob/master/20181116094816.png)
 
-That's so cool.AlL right?
+That's so cool.All right?
