@@ -23,6 +23,6 @@ echo ""
 echo -e "\nbuild docker hadoop image\n"
 
 # rebuild e4glet/hadoop image
-sudo docker build -t e4glet/hadoop:2.0 .
+sudo docker build -t e4glet/hadoop:2.1 .
 
 echo ""

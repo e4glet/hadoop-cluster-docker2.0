@@ -1,14 +1,27 @@
 ﻿# 使用docker创建Hadoop分布式集群2.0
 
-#### About this Images
 
+#### Supported tags
+docker pull e4glet/hadoop:2.0 (only include hadoop)  
+docker pull e4glet/hadoop:2.1(include hadoop and spark)  
+
+#### About Images
+
+1. tag:2.0
 OS：Ubuntu16.04  
 JDK Version：openjdk8  
 Hadoop Version：2.7.2  
 
+2. tag:2.1
+OS：Ubuntu16.04  
+JDK Version：openjdk8  
+Hadoop Version：2.7.2  
+Spark Version:2.1.3  
+
+
 #### Overview
 
-This image can be used for develop with Eclipse JDK 1.8.
+This image can be used for develop with Eclipse JDK 1.8.0_191
 
 
 #### Hadoop cluster construction steps for N node（N>=3）
@@ -87,3 +100,14 @@ like this:
 ![alt tag](https://github.com/e4glet/hadoop-cluster-docker2.0/blob/master/20181116094816.png)
 
 That's so cool.AlL right?
+
+####update
+
+1. new tags:2.1 include spark 2.1.3 
+
+2. start: Is the same like tags:2.0
+![alt tag](https://github.com/e4glet/hadoop-cluster-docker2.0/blob/master/hadoop-spark01.png) 
+
+3. spark Web UI : http://HostIP:8040/  
+![alt tag](https://github.com/e4glet/hadoop-cluster-docker2.0/blob/master/hadoop-spark02.png)  
+![alt tag](https://github.com/e4glet/hadoop-cluster-docker2.0/blob/master/hadoop-spark03.png)  
