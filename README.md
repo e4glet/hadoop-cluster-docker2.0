@@ -100,7 +100,6 @@ like this:
 
 ![alt tag](https://github.com/e4glet/hadoop-cluster-docker2.0/blob/master/20181116094816.png)
 
-That's so cool.AlL right?<<<<<<< .mine
 That's so cool.AlL right?
 
 ####update
@@ -113,17 +112,4 @@ That's so cool.AlL right?
 3. spark Web UI : http://HostIP:8040/  
 ![alt tag](https://github.com/e4glet/hadoop-cluster-docker2.0/blob/master/hadoop-spark02.png)  
 ![alt tag](https://github.com/e4glet/hadoop-cluster-docker2.0/blob/master/hadoop-spark03.png)  
-=======
-That's so cool.All right?
 
-
-
-
-
-
-
-
-
-
-
->>>>>>> .theirs
